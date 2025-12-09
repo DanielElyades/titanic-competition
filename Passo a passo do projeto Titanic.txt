@@ -1,0 +1,25 @@
+Passo a passo do projeto Titanic
+
+train.csv mostra quais sobreviveram
+test.csv serve para testar onde ainda não tem Survivor
+gender_submission.csv mostra como deve ser a submissão do dataframe
+
+O arquivo de submissão deve ter 
+PassengerId
+Survived
+
+Para cada item no conjunto de teste, você deve prever um valor 0 ou 1 para a variável Survived no arquivo submission.csv.
+
+Você deve enviar um arquivo CSV com exatamente 418 entradas, além de uma linha de cabeçalho. Seu envio apresentará um erro se houver colunas extras (além de PassengerId e Survived) ou linhas extras.
+-----------------------------------------
+Primeiro dia 
+Eu escrevi o código para descobrir a média de sobreviventes dos seguintes dados do DataFrame:
+Age/Survived
+Pclass/Survived
+Embarked/Survived
+
+Depois eu descobri quais valores eram nulos e pedi para somar todos
+---------------------------------------
+Segundo dia
+Tratar os valores nulos, colocando a mediana no lugar deles.
+Transformar variáveis categóricas em números
