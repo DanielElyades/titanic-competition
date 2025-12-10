@@ -28,4 +28,5 @@ Scikit-learn: Para construção e avaliação de modelos de machine learning (Ra
 📊 Resultados e Contribuição
 Modelo BasePrecisão (Acurácia) no Kaggle
 Random Forest (Inicial)~0.77Modelo 
-Final Otimizado[Insira sua melhor pontuação]
+Final Otimizado 
+Score: 0.75358
