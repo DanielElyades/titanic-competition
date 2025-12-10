@@ -20,6 +20,10 @@ Embarked/Survived
 
 Depois eu descobri quais valores eram nulos e pedi para somar todos
 ---------------------------------------
-Segundo dia
+Segundo dia - Logistic Regression
 Tratar os valores nulos, colocando a mediana no lugar deles.
 Transformar variáveis categóricas em números
+- Sex → male = 0, female = 1
+- Embarked → S = 0, C = 1, Q = 2
+- Cabin → transformar letras em números (map simples ou One-Hot Encoding)
+Selecionar variáveis para o modelo
